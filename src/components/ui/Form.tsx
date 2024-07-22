@@ -27,7 +27,7 @@ const Form: React.FC<FormProps> = ({ createTask }) => {
           onChange={(e) => setValue(e.target.value)}
           value={value}
         />
-        <Button className="ml-2 bg-gradient-to-t from-fuchsia-700 to-pink-500">
+        <Button className="ml-2 transform bg-gradient-to-t from-fuchsia-700 to-pink-500 transition-transform duration-200 hover:scale-95">
           Add
         </Button>
       </form>

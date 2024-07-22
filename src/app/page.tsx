@@ -44,13 +44,13 @@ function Page() {
 
   return (
     <div className="container my-10">
-      <h1 className="my-10 bg-gradient-to-r from-fuchsia-700 to-pink-500 bg-clip-text text-center font-sans text-4xl font-extrabold text-transparent">
+      <h1 className="my-10 bg-gradient-to-t from-yellow-500 to-amber-200 bg-clip-text text-center font-sans text-4xl font-extrabold text-transparent">
         To Do List
       </h1>
       <Form createTask={createTask} />
       <div className="mx-auto mt-5 max-w-sm">
         {taskValue.length === 0 ? (
-          <p className="text-md mt-8 bg-gradient-to-r from-pink-500 to-pink-400 bg-clip-text text-center font-mono font-bold text-transparent sm:text-lg">
+          <p className="text-md mt-8 text-center font-mono font-thin text-white sm:text-lg">
             No task available at the moment...
           </p>
         ) : (
